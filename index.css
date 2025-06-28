@@ -2,28 +2,17 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin-top: 50px;
+  background-color: #f0f0f0;
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.form-group {
-  margin: 10px auto;
-  text-align: left;
-  max-width: 300px;
-}
-
-input[type="number"] {
-  width: 60px;
-  padding: 5px;
-  margin-left: 10px;
-}
-
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
+.button-container button {
+  padding: 15px 30px;
   font-size: 16px;
+  margin: 10px;
   cursor: pointer;
   background-color: #007BFF;
   color: white;
@@ -31,13 +20,6 @@ button {
   border-radius: 8px;
 }
 
-button:hover {
+.button-container button:hover {
   background-color: #0056b3;
-}
-
-#password {
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  color: green;
 }
